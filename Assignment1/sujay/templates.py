@@ -1,0 +1,69 @@
+"""
+Module to create template classes for Autodifferentiable losses/activations/layers
+"""
+
+
+class AutoDiffFunction():
+    """Format for any function in general which has to be auto-differentiable
+    """
+
+    def __init__(self, *args, **kwds) -> None:
+        self.saved_for_backward = {}
+        self.grad = {}
+
+    def __call__(self, *args, **kwds):
+
+        output = self.forward(*args, **kwds)
+        self.grad = self.compute_grad(*args, **kwds)
+        return output
+
+    def forward(self, *args, **kwds):
+        pass
+
+    def compute_grad(self, *args, **kwds):
+        pass
+
+    def backward(self, *args, **kwds):
+        pass
+
+
+class Layer(AutoDiffFunction):
+    """Format to create your own custom layer for the model
+    """
+    def __init__(self, *args, **kwds) -> None:
+        super().__init__(*args, **kwds)
+
+        self.weights = {}
+        self.optimizer = None
+
+    def initialize_weights(self, *args, **kwds):
+        pass
+
+    def update_weights(self, *args, **kwds):
+
+        for key, _ in self.weights.items():
+            self.optimizer.step(*args, **kwds)
+
+
+class Loss(AutoDiffFunction):
+    """Format to create a custom loss function
+    """
+
+    def forward(self, y_true, y_pred):
+        pass 
+
+    def backward(self):
+        return self.grad["x"]
+
+    def compute_grad(self, y_true, y_pred):
+        pass
+
+
+class Optimizer():
+    """Format to create a custom optimizer
+    """
+    def __init__(self, *args, **kwds):
+        pass
+
+    def step(self, weights, gradients):
+        pass    
