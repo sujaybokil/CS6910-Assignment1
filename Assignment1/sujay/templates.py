@@ -39,10 +39,9 @@ class Layer(AutoDiffFunction):
     def initialize_weights(self, *args, **kwds):
         pass
 
-    def update_weights(self, *args, **kwds):
+    def update_weights(self):
 
-        for key, _ in self.weights.items():
-            self.optimizer.step(*args, **kwds)
+        self.optimizer.step(self)
 
 
 class Loss(AutoDiffFunction):
@@ -65,5 +64,5 @@ class Optimizer():
     def __init__(self, *args, **kwds):
         pass
 
-    def step(self, weights, gradients):
+    def step(self, layer):
         pass    
