@@ -62,6 +62,10 @@ class Optimizer():
     """Format to create a custom optimizer
     """
     def __init__(self, *args, **kwds):
+        self.remember = {}
+        pass
+
+    def add_params(self, *args, **kwds):
         pass
 
     def step(self, layer):
