@@ -47,9 +47,7 @@ class Layer(AutoDiffFunction):
 class Loss(AutoDiffFunction):
     """Format to create a custom loss function
     """
-    def __init__(self, num_classes):
-        self.num_classes = num_classes
-    
+
     def forward(self, y_true, y_pred):
         pass 
 
@@ -71,4 +69,4 @@ class Optimizer():
         pass
 
     def step(self, layer):
-        pass    
+        pass      
