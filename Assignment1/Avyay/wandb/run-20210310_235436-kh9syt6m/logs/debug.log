@@ -1,0 +1,26 @@
+2021-03-10 23:54:36,785 INFO    Thread-25 :12088 [wandb_setup.py:_flush():69] setting env: {'project': 'uncategorized', 'entity': 'avyay', 'root_dir': 'C:\\Users\\rao_a\\PythonCPU\\Deep Learning\\CS6910-Assignments-1\\Assignment1\\Avyay', 'sweep_id': 'mbcm7lra', 'run_id': 'kh9syt6m', 'sweep_param_path': 'C:\\Users\\rao_a\\PythonCPU\\Deep Learning\\CS6910-Assignments-1\\Assignment1\\Avyay\\wandb\\sweep-mbcm7lra\\config-kh9syt6m.yaml'}
+2021-03-10 23:54:36,785 INFO    Thread-25 :12088 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-10 23:54:36,785 INFO    Thread-25 :12088 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\rao_a\PythonCPU\Deep Learning\CS6910-Assignments-1\Assignment1\Avyay\wandb\run-20210310_235436-kh9syt6m\logs\debug.log
+2021-03-10 23:54:36,786 INFO    Thread-25 :12088 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\rao_a\PythonCPU\Deep Learning\CS6910-Assignments-1\Assignment1\Avyay\wandb\run-20210310_235436-kh9syt6m\logs\debug-internal.log
+2021-03-10 23:54:36,787 INFO    Thread-25 :12088 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000015CCD916DD8>
+2021-03-10 23:54:36,787 INFO    Thread-25 :12088 [wandb_init.py:init():367] calling init triggers
+2021-03-10 23:54:36,787 INFO    Thread-25 :12088 [wandb_init.py:init():374] wandb.init called with sweep_config: {'epochs': 10, 'n_layers': 3}
+config: {'n_layers': 3, 'layer_size': 32, 'weight_decay': 0, 'lr': 0.001, 'optimizer': 'sgd', 'batch_size': 32, 'init_method': 'random', 'activation': 'relu', 'epochs': 5}
+2021-03-10 23:54:36,788 INFO    Thread-25 :12088 [wandb_init.py:init():416] starting backend
+2021-03-10 23:54:36,788 INFO    Thread-25 :12088 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-03-10 23:54:36,792 INFO    Thread-25 :12088 [backend.py:ensure_launched():123] starting backend process...
+2021-03-10 23:54:36,915 INFO    Thread-25 :12088 [backend.py:ensure_launched():128] started backend process with pid: 14536
+2021-03-10 23:54:36,916 INFO    Thread-25 :12088 [wandb_init.py:init():421] backend started and connected
+2021-03-10 23:54:36,918 INFO    Thread-25 :12088 [wandb_run.py:_config_callback():733] config_cb None None {'epochs': 10, 'n_layers': 3}
+2021-03-10 23:54:36,918 INFO    Thread-25 :12088 [wandb_init.py:init():461] updated telemetry
+2021-03-10 23:54:36,919 INFO    Thread-25 :12088 [wandb_init.py:init():480] communicating current version
+2021-03-10 23:54:39,119 INFO    Thread-25 :12088 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.10.22 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-03-10 23:54:39,121 INFO    Thread-25 :12088 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-10 23:54:39,618 INFO    Thread-25 :12088 [wandb_init.py:init():518] starting run threads in backend
+2021-03-10 23:54:41,245 INFO    Thread-25 :12088 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-10 23:54:41,246 INFO    Thread-25 :12088 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-10 23:54:41,247 INFO    Thread-25 :12088 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-10 23:54:41,247 INFO    Thread-25 :12088 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-10 23:54:41,247 INFO    Thread-25 :12088 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-10 23:54:54,426 INFO    Thread-25 :12088 [wandb_run.py:finish():1135] finishing run avyay/uncategorized/kh9syt6m

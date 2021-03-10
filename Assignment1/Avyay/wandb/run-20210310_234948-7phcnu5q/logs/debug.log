@@ -1,0 +1,52 @@
+2021-03-10 23:49:48,946 INFO    Thread-11 :9944 [wandb_setup.py:_flush():69] setting env: {'project': 'uncategorized', 'entity': 'avyay', 'root_dir': 'C:\\Users\\rao_a\\PythonCPU\\Deep Learning\\CS6910-Assignments-1\\Assignment1\\Avyay', 'sweep_id': 'mgaj1vs9', 'run_id': '7phcnu5q', 'sweep_param_path': 'C:\\Users\\rao_a\\PythonCPU\\Deep Learning\\CS6910-Assignments-1\\Assignment1\\Avyay\\wandb\\sweep-mgaj1vs9\\config-7phcnu5q.yaml'}
+2021-03-10 23:49:48,946 INFO    Thread-11 :9944 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-10 23:49:48,950 INFO    Thread-11 :9944 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\rao_a\PythonCPU\Deep Learning\CS6910-Assignments-1\Assignment1\Avyay\wandb\run-20210310_234948-7phcnu5q\logs\debug.log
+2021-03-10 23:49:48,951 INFO    Thread-11 :9944 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\rao_a\PythonCPU\Deep Learning\CS6910-Assignments-1\Assignment1\Avyay\wandb\run-20210310_234948-7phcnu5q\logs\debug-internal.log
+2021-03-10 23:49:48,952 INFO    Thread-11 :9944 [wandb_init.py:init():367] calling init triggers
+2021-03-10 23:49:48,953 INFO    Thread-11 :9944 [wandb_init.py:init():374] wandb.init called with sweep_config: {'epochs': 5, 'n_layers': 3}
+config: {'n_layers': 3, 'layer_size': 32, 'weight_decay': 0, 'lr': 0.001, 'optimizer': 'sgd', 'batch_size': 32, 'init_method': 'random', 'activation': 'relu', 'epochs': 5}
+2021-03-10 23:49:48,953 INFO    Thread-11 :9944 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 7phcnu5q
+2021-03-10 23:49:48,957 INFO    Thread-11 :9944 [wandb_run.py:finish():1135] finishing run avyay/uncategorized/7phcnu5q
+2021-03-10 23:49:48,959 INFO    Thread-11 :9944 [jupyter.py:save_history():320] not saving jupyter history
+2021-03-10 23:49:48,963 INFO    Thread-11 :9944 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-03-10 23:49:48,963 INFO    Thread-11 :9944 [wandb_init.py:_jupyter_teardown():266] cleaning up jupyter logic
+2021-03-10 23:49:48,964 INFO    Thread-11 :9944 [wandb_run.py:_atexit_cleanup():1446] got exitcode: 0
+2021-03-10 23:49:48,965 INFO    Thread-11 :9944 [wandb_run.py:_restore():1418] restore
+2021-03-10 23:49:50,253 INFO    Thread-11 :9944 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 921
+  total_bytes: 921
+}
+
+2021-03-10 23:49:52,255 INFO    Thread-11 :9944 [wandb_run.py:_wait_for_finish():1568] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4554
+  total_bytes: 4554
+}
+
+2021-03-10 23:49:53,431 INFO    Thread-11 :9944 [wandb_run.py:_show_files():1790] logging synced files
+2021-03-10 23:49:53,438 INFO    Thread-11 :9944 [wandb_init.py:init():416] starting backend
+2021-03-10 23:49:53,438 INFO    Thread-11 :9944 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-03-10 23:49:53,442 INFO    Thread-11 :9944 [backend.py:ensure_launched():123] starting backend process...
+2021-03-10 23:49:53,553 INFO    Thread-11 :9944 [backend.py:ensure_launched():128] started backend process with pid: 1424
+2021-03-10 23:49:53,553 INFO    Thread-11 :9944 [wandb_init.py:init():421] backend started and connected
+2021-03-10 23:49:53,555 INFO    Thread-11 :9944 [wandb_run.py:_config_callback():733] config_cb None None {'epochs': 5, 'n_layers': 3}
+2021-03-10 23:49:53,555 INFO    Thread-11 :9944 [wandb_init.py:init():461] updated telemetry
+2021-03-10 23:49:53,556 INFO    Thread-11 :9944 [wandb_init.py:init():480] communicating current version
+2021-03-10 23:49:55,860 INFO    Thread-11 :9944 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.10.22 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-03-10 23:49:55,860 INFO    Thread-11 :9944 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-10 23:49:56,381 INFO    Thread-11 :9944 [wandb_init.py:init():518] starting run threads in backend
+2021-03-10 23:49:57,991 INFO    Thread-11 :9944 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-10 23:49:57,993 INFO    Thread-11 :9944 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-10 23:49:57,993 INFO    Thread-11 :9944 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-10 23:49:57,993 INFO    Thread-11 :9944 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-10 23:49:57,993 INFO    Thread-11 :9944 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-10 23:50:03,594 INFO    Thread-11 :9944 [wandb_run.py:finish():1135] finishing run avyay/uncategorized/7phcnu5q

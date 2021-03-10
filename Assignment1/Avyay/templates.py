@@ -69,4 +69,4 @@ class Optimizer():
         pass
 
     def step(self, layer):
-        pass      
+        pass    
