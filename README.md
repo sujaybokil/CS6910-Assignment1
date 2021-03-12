@@ -5,10 +5,12 @@ Code for assignments and projects for CS6910: Fundamentals of Deep Learning by S
 
 2. For creating a model, the syntax is given below. It is almost the same as in tensorflow/keras.
 
-    `# define the model architecture in the list passed to NeuralNet() class`
-    `model = NeuralNet([FC(784, 64), RelU(), FC(64, 10)], use_wandb=False)`
-    `optimizer = NAG() # use any of the 6 available losses here`
-    `loss = CrossEntropyLossFromLogits() use any of the 2 available losses`
+    ```python
+    # define the model architecture in the list passed to NeuralNet() class
+    model = NeuralNet([FC(784, 64), RelU(), FC(64, 10)], use_wandb=False)
+    optimizer = NAG() # use any of the 6 available losses here
+    loss = CrossEntropyLossFromLogits() use any of the 2 available losses
+    ```
 
 3. To compile the model so that it knows what loss and optimizer it's working with, use the following syntax
 
