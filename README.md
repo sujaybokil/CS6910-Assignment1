@@ -30,7 +30,7 @@ Code for assignments and projects for CS6910: Fundamentals of Deep Learning by S
     model.evaluate(test_images, test_labels)
     ```
 
-6. For running a wandb sweep, find out the train() functions for setting up wandb sweeps using our framework. Set up a wandb sweep as follows and run the sweep using the commands shown.
+6. For running a wandb sweep, find out the train() function for setting up wandb sweeps using our framework. Set up a wandb sweep as follows and run the sweep using the commands shown.
 
     ```python
 
