@@ -14,12 +14,43 @@ Code for assignments and projects for CS6910: Fundamentals of Deep Learning by S
 
 3. To compile the model so that it knows what loss and optimizer it's working with, use the following syntax
 
-    `model.compile(loss=loss, optimizer=optimizer)`
+    ```python
+    model.compile(loss=loss, optimizer=optimizer)
+    ```
 
 4. To train the model, you have to specify both training and validation datasets along with batch size and number of    epochs to train for in the given syntax
 
-    `model.fit(train_images, train_labels, val_images, val_labels, batch_size=128, epochs=5)`
+    ```python
+    model.fit(train_images, train_labels, val_images, val_labels, batch_size=128, epochs=5)
+    ```
 
 5. To evaluate the model on a separate test dataset, use the following command
 
-    `model.evaluate(test_images, test_labels)`
+    ```python
+    model.evaluate(test_images, test_labels)
+    ```
+
+6. For running a wandb sweep, find out the train() functions for setting up wandb sweeps using our framework. Set up a wandb sweep as follows and run the sweep using the commands shown.
+
+    ```python
+
+    # setting up hyperparameter configurations for the sweep
+    sweep_config = {
+        "name": "Sweep Test Master",
+        "method": "grid",
+        "parameters": {
+                "epochs": {
+                    "values": [5, 10]
+                },
+                "n_layers": {
+                    "values": [3, 4, 5]
+                }
+            }
+        }
+
+    # setting up the sweep
+    sweep_id = wandb.sweep(sweep_config)
+
+    # running the sweep
+    wandb.agent(sweep_id, function=train)
+    ```
