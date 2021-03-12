@@ -1,5 +1,6 @@
-# CS6910-Assignments
-Code for assignments and projects for CS6910: Fundamentals of Deep Learning by Sujay and Avyay
+# CS6910-Assignments: Assignment 1
+
+## Authors: Sujay Bokil (ME17B120) and Avyay Rao (ME17B130)
 
 1. The notebook is made such that the cells can be run sequentially
 
