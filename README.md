@@ -55,3 +55,40 @@
     # running the sweep
     wandb.agent(sweep_id, function=train)
     ```
+
+## Available options for the neural network
+
+1. Loss functions
+
+    ```python
+    CrossEntropyLossFromLogits()
+    MSELossFromLogits()
+
+    ```
+
+2. Activation functions
+
+    ```python
+    Sigmoid()
+    RelU()
+    Tanh()
+
+    ```
+
+3. Optimizers 
+
+    ```python
+    SGD()
+    Momentum()
+    NAG()
+    RMSprop()
+    Adam()
+    Nadam()
+
+    ```
+
+4. Layers
+
+    ```python
+    FC() # represents fully connected layer
+    ```
