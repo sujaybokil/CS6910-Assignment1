@@ -2,7 +2,7 @@
 
 ## Authors: Sujay Bokil (ME17B120) and Avyay Rao (ME17B130)
 
-1. The "assignment1_master.ipynb" notebook represents our main submission. The 2 folders sujay/avyay contain separate notebooks full of code created or tested or used by the individual contributors. The structure of the main notebook is such that it can be run sequentially till the end just by pressing Shift + Enter for each cell or pressing "Run all cells".
+1. The "assignment1-master.ipynb" notebook represents our main submission. The 2 folders sujay/avyay contain separate notebooks full of code created or tested or used by the individual contributors. The structure of the main notebook is such that it can be run sequentially till the end just by pressing Shift + Enter for each cell or pressing "Run all cells".
 
 2. For creating a model, the syntax is given below. It is almost the same as in tensorflow/keras.
 
