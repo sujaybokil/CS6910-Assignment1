@@ -1,0 +1,10 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+batch_size:
+  value: 16
+init_method:
+  value: random
+weight_decay:
+  value: 0

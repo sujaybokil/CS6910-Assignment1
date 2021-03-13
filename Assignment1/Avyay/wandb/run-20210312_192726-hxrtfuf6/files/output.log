@@ -1,0 +1,15 @@
+Epoch: 1 Train Loss: 0.691193 Train Accuracy: 0.748963 Val Loss: 0.634343 Val Accuracy: 0.787068
+Epoch: 2 Train Loss: 0.548219 Train Accuracy: 0.811389 Val Loss: 0.557085 Val Accuracy: 0.804854
+Epoch: 3 Train Loss: 0.537816 Train Accuracy: 0.813222 Val Loss: 0.552583 Val Accuracy: 0.805352
+Epoch: 4 Train Loss: 0.514168 Train Accuracy: 0.821109 Val Loss: 0.518206 Val Accuracy: 0.814661
+Epoch: 5 Train Loss: nan Train Accuracy: 0.827736 Val Loss: nan Val Accuracy: 0.802693
+Epoch: 6 Train Loss: nan Train Accuracy: 0.830754 Val Loss: 0.557581 Val Accuracy: 0.814328
+Epoch: 7 Train Loss: nan Train Accuracy: 0.833364 Val Loss: 0.475288 Val Accuracy: 0.834940
+Epoch: 8 Train Loss: nan Train Accuracy: 0.834531 Val Loss: nan Val Accuracy: 0.823803
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:9: RuntimeWarning: invalid value encountered in true_divide
+  if __name__ == '__main__':
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:23: RuntimeWarning: invalid value encountered in greater
+Epoch: 9 Train Loss: nan Train Accuracy: 0.467287 Val Loss: nan Val Accuracy: 0.096742
+Epoch: 10 Train Loss: nan Train Accuracy: 0.100322 Val Loss: nan Val Accuracy: 0.096742
+
+Model trained successfully!

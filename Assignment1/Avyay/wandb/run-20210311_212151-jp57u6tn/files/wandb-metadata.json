@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.3",
+    "heartbeatAt": "2021-03-11T15:51:55.399673",
+    "startedAt": "2021-03-11T15:51:51.201152",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\rao_a\\AppData\\Roaming\\jupyter\\runtime\\kernel-68605612-3576-48ad-9f17-e19a6073e0de.json"
+    ],
+    "state": "running",
+    "program": "PythonCPU/Deep Learning/CS6910-Assignments-1/Assignment1/Avyay/Assignment1-Avyay.ipynb",
+    "root": "C:/Users/rao_a/PythonCPU/Deep Learning/CS6910-Assignments-1",
+    "git": {
+        "remote": "https://github.com/sujaybokil/CS6910-Assignments.git",
+        "commit": "62c18598c765f06ec2f33ae8bfe484cdb286027e"
+    },
+    "email": "raoavyay9@gmail.com",
+    "host": "LAPTOP-S8P3E6I4",
+    "username": "rao_a",
+    "executable": "C:\\Users\\rao_a\\Miniconda3\\envs\\PythonCPU\\python.exe"
+}

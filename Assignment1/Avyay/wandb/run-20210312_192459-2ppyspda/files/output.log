@@ -1,0 +1,14 @@
+Epoch: 1 Train Loss: 0.586573 Train Accuracy: 0.789525 Val Loss: 0.451877 Val Accuracy: 0.842753
+Epoch: 2 Train Loss: 0.460398 Train Accuracy: 0.837400 Val Loss: 0.433111 Val Accuracy: 0.850066
+Epoch: 3 Train Loss: 0.430474 Train Accuracy: 0.849248 Val Loss: 0.428770 Val Accuracy: 0.847407
+Epoch: 4 Train Loss: 0.401396 Train Accuracy: 0.860838 Val Loss: 0.440900 Val Accuracy: 0.856383
+Epoch: 5 Train Loss: 0.394985 Train Accuracy: 0.862448 Val Loss: 0.401538 Val Accuracy: 0.861203
+Epoch: 6 Train Loss: 0.382686 Train Accuracy: 0.865318 Val Loss: 0.401601 Val Accuracy: 0.864860
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:24: RuntimeWarning: divide by zero encountered in log
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:24: RuntimeWarning: invalid value encountered in multiply
+Epoch: 7 Train Loss: nan Train Accuracy: 0.869187 Val Loss: 0.394387 Val Accuracy: 0.862201
+Epoch: 8 Train Loss: 0.362875 Train Accuracy: 0.873056 Val Loss: 0.403060 Val Accuracy: 0.866855
+Epoch: 9 Train Loss: 0.356735 Train Accuracy: 0.875666 Val Loss: 0.422912 Val Accuracy: 0.860871
+Epoch: 10 Train Loss: nan Train Accuracy: 0.874648 Val Loss: nan Val Accuracy: 0.873005
+
+Model trained successfully!

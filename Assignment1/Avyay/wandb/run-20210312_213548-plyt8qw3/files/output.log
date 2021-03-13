@@ -1,0 +1,7 @@
+Epoch: 1 Train Loss: 0.841843 Train Accuracy: 0.227198 Val Loss: 0.839578 Val Accuracy: 0.205064
+Epoch: 2 Train Loss: 0.855570 Train Accuracy: 0.205377 Val Loss: 0.999543 Val Accuracy: 0.204399
+Epoch: 3 Train Loss: 0.969185 Train Accuracy: 0.196935 Val Loss: 1.078980 Val Accuracy: 0.205064
+Epoch: 4 Train Loss: 1.069546 Train Accuracy: 0.197121 Val Loss: 1.110692 Val Accuracy: 0.205563
+Epoch: 5 Train Loss: 1.100208 Train Accuracy: 0.197151 Val Loss: 0.967488 Val Accuracy: 0.206228
+
+Model trained successfully!

@@ -1,0 +1,38 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.21
+    framework: tensorflow
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.3
+    t:
+      1:
+      - 3
+      - 5
+      2:
+      - 3
+      - 5
+      3:
+      - 2
+      4: 3.7.3
+      5: 0.10.21
+      8:
+      - 1
+      - 3
+      - 5
+layer_size:
+  desc: null
+  value: 32
+magic:
+  desc: null
+  value:
+    enable: true
+n_layers:
+  desc: null
+  value: 3
+optimizer:
+  desc: null
+  value: sgd

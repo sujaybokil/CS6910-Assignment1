@@ -1,0 +1,10 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 32
+init_method:
+  value: random
+weight_decay:
+  value: 0.0005

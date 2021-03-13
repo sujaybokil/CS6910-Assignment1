@@ -1,0 +1,10 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 64
+init_method:
+  value: xavier
+weight_decay:
+  value: 0.05

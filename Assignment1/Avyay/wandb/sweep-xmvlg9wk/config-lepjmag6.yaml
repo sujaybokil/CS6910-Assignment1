@@ -1,0 +1,6 @@
+wandb_version: 1
+
+epochs:
+  value: 7
+n_layers:
+  value: 4

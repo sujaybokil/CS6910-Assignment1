@@ -1,0 +1,12 @@
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:9: RuntimeWarning: invalid value encountered in true_divide
+  if __name__ == '__main__':
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:24: RuntimeWarning: divide by zero encountered in log
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:24: RuntimeWarning: invalid value encountered in multiply
+C:\Users\rao_a\Miniconda3\envs\PythonCPU\lib\site-packages\ipykernel_launcher.py:23: RuntimeWarning: invalid value encountered in greater
+Epoch: 1 Train Loss: nan Train Accuracy: 0.099656 Val Loss: nan Val Accuracy: 0.101729
+Epoch: 2 Train Loss: nan Train Accuracy: 0.099767 Val Loss: nan Val Accuracy: 0.101729
+Epoch: 3 Train Loss: nan Train Accuracy: 0.099767 Val Loss: nan Val Accuracy: 0.101729
+Epoch: 4 Train Loss: nan Train Accuracy: 0.099767 Val Loss: nan Val Accuracy: 0.101729
+Epoch: 5 Train Loss: nan Train Accuracy: 0.099767 Val Loss: nan Val Accuracy: 0.101729
+
+Model trained successfully!

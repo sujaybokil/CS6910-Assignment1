@@ -1,0 +1,12 @@
+Epoch: 1 Train Loss: 0.546884 Train Accuracy: 0.802873 Val Loss: 0.495841 Val Accuracy: 0.820811
+Epoch: 2 Train Loss: 0.474773 Train Accuracy: 0.830624 Val Loss: 0.472831 Val Accuracy: 0.830951
+Epoch: 3 Train Loss: 0.450583 Train Accuracy: 0.839807 Val Loss: 0.455230 Val Accuracy: 0.837434
+Epoch: 4 Train Loss: 0.434648 Train Accuracy: 0.846194 Val Loss: 0.433676 Val Accuracy: 0.847074
+Epoch: 5 Train Loss: 0.421247 Train Accuracy: 0.850748 Val Loss: 0.413856 Val Accuracy: 0.855053
+Epoch: 6 Train Loss: 0.413534 Train Accuracy: 0.853451 Val Loss: 0.400359 Val Accuracy: 0.860206
+Epoch: 7 Train Loss: 0.408638 Train Accuracy: 0.855191 Val Loss: 0.392313 Val Accuracy: 0.863364
+Epoch: 8 Train Loss: 0.403961 Train Accuracy: 0.856580 Val Loss: 0.388898 Val Accuracy: 0.866190
+Epoch: 9 Train Loss: 0.399653 Train Accuracy: 0.859116 Val Loss: 0.387533 Val Accuracy: 0.865359
+Epoch: 10 Train Loss: 0.396098 Train Accuracy: 0.859727 Val Loss: 0.391079 Val Accuracy: 0.864528
+
+Model trained successfully!

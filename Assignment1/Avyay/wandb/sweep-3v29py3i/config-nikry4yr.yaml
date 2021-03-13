@@ -1,0 +1,10 @@
+wandb_version: 1
+
+epochs:
+  value: 5
+layer_size:
+  value: 128
+loss:
+  value: mse
+n_layers:
+  value: 5

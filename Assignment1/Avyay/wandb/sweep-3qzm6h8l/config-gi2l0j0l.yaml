@@ -1,0 +1,8 @@
+wandb_version: 1
+
+layer_size:
+  value: 32
+n_layers:
+  value: 5
+optimizer:
+  value: rmsprop
